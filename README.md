@@ -7,11 +7,24 @@ NOTE: It can only detect neutral and smile faces, not intended to detect frownin
 
 ![Demo](https://raw.githubusercontent.com/edumorlom/smile-detection/main/demo.gif)
 
-## How to Run
+## Install Dependencies
 
 1. Install [Python](https://www.python.org/downloads/).
-2. Install Python dependencies inside `smile-detection` directory: `python3 -m pip install -r requirements.txt`.
-2. Run `python3 main.py` inside the `smile-detection/` directory.
+2. Run `python3 -m pip install -r requirements.txt` inside the `smile-detection/` directory.
+
+## Train Model (Optional)
+
+NOTE: By default, this GitHub repository comes with a pre-trained model.
+Training a new model will take a while to run. Please be patient.
+
+1. Open `smile-detection/Train.ipynb` with Jupyter Notebook.
+2. In Jupyter Notebook, click: `Cell -> Run All`.
+3. The model data will be written inside the `smile-detection/` directory as `smile.model/`.
+
+
+## How to Run
+
+1. Run `python3 main.py` inside the `smile-detection/` directory.
 
 ## Data
 
